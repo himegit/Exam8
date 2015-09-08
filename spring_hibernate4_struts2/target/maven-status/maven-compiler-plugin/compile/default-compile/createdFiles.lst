@@ -1,0 +1,9 @@
+com\hand\dao\JDBSTest2.class
+com\hand\action\model\User.class
+com\hand\model\Payment.class
+com\hand\model\Rental.class
+com\hand\model\Address.class
+com\hand\model\Customer.class
+com\hand\action\LoginAction.class
+com\hand\dao\DaoImp.class
+com\hand\action\LoginOut.class
