@@ -1,0 +1,7 @@
+mvn tomcat:run  
+
+
+
+浏览器中输入:http://localhost:8080/spring_hibernate4_struts2/
+
+会提示返回登录页面
