@@ -1,4 +1,0 @@
-mvn exec:java -Dexec.mainClass="com.hand.main.Main"
-
-
-mysql没有用配置文件，直接数据库用户名为root，密码为123456；
