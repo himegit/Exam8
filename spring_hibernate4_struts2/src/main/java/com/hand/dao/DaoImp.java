@@ -35,6 +35,7 @@ public class DaoImp {
 		Query query = session.createQuery(hql);
 		List<Customer> customers = query.list();
 		for (Customer customer : customers) {
+			System.out.println(customer.getLastName());
 			if (customer.getLastName().equals(password)) {
 				session.close();
 				return "success";
@@ -43,7 +44,7 @@ public class DaoImp {
 				return "error";
 			}
 		}
-		return "success";
+		return "error";
 	}
 
 	public List<Customer> findAll() {
